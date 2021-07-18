@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;800&family=Rubik+Mono+One&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
+    />
+    <script type="text/javascript" src="script.js"></script>
+    <title>Document</title>
+  </head>
+
+  <body>
+    <div class="background">
+      <header>
+        <h1 class="logo">meucafé</h1>
+        <nav>
+          <a href="#meucafe">ir para loja</a>
+        </nav>
+      </header>
+      <section class="container-1">
+        <div class="container-info-black-friday">
+          <div class="black-friday">
+            <p class="black">B L A C K</p>
+            <p class="friday">FRIDAY</p>
+          </div>
+          <div class="info">
+            <p class="discount">80% OFF</p>
+            <p class="discount-2">
+              NÃO VAI PERDER A CHANCE DE ADQUIRIR O SEU CAFÉ FAVORITO, NÉ ?
+            </p>
+          </div>
+        </div>
+
+        <div class="container-register">
+          <p>CADASTRE-SE ABAIXO E NÃO PERCA ESSA OPORTUNIDADE!</p>
+          <form>
+            <div class="register">
+              <label for="name">Nome:</label>
+              <input class="input" type="text" id="name" name="name" />
+              <label for="email">E-mail:</label>
+              <input class="input" type="text" id="email" name="email" />
+              <input
+                class="submit"
+                type="button"
+                onclick="cadastroNewsletter()"
+                value="Enviar"
+              />
+            </div>
+          </form>
+        </div>
+      </section>
+    </div>
+    <section class="container-product">
+      <p>Nossos Produtos</p>
+      <div class="product">
+        <div class="card">
+          <img
+            class="img-product"
+            src="Imagens/cofee-1.jpg"
+            alt="Embalagem e café fechada, sobre mesa, com grãos de café esapalhados"
+          />
+          <p>
+            Café 100% Arábica equilibrado e de torra média. Apresenta notas
+            florais, frutadas e de torra média.
+          </p>
+        </div>
+        <div class="card">
+          <img class="img-product" src="Imagens/coffe-2.jpg" alt="" />
+          <p>
+            Torra escura. Apresenta notas de frutas em compota, com doçura alta,
+            acidez baixa e corpo aveludado.
+          </p>
+        </div>
+        <div class="card">
+          <img class="img-product" src="Imagens/coffe-3.jpg" alt="" />
+          <p>
+            Café 100% Arábica e de torra média clara. Apresenta notas cítricas,
+            principalmente de lima e tangerina.
+          </p>
+        </div>
+      </div>
+    </section>
+    <section class="production">
+      <p class="production-description">
+        MEUCAFÉ é um café artesanal, todos os grãos são selecionados em sua
+        grande diversidade de aromas.
+      </p>
+
+      <img class="img-production" src="Imagens/colheita.jpg" alt="" />
+    </section>
+    <footer>
+      <div class="credits">
+        <p>Imagens de:</p>
+        <div>
+          <a href="https://br.freepik.com/psd/maquete"
+            >Mego-studio - br.freepik.com |
+          </a>
+          <a href="https://www.pexels.com/pt-br/procurar/coffee%20packaging/"
+            >Toni Cuenca - pexels.com |
+          </a>
+          <a href="https://unsplash.com/photos/rKYRJu0n06Y"
+            >Milo Miloezger - unsplash.com</a
+          >
+        </div>
+      </div>
+      <div class="author">
+        <p>Desenvolvido por Ana Carolina Castello</p>
+        <div>
+          <a href="https://github.com/anacarolinacastello"
+            ><i class="fab fa-github"></i
+          ></a>
+          <a
+            href="https://www.linkedin.com/in/ana-carolina-pereira-castello-292b07192/"
+            ><i class="fab fa-linkedin"></i
+          ></a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
